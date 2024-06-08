@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+body {
+  margin: 0;
+  line-height: normal;
+  padding-right: 1450px;
+  overflow-x: hidden;
+}
+
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.contentContainer {
+  max-width: 1520px;
+  width: 100%;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: rgba(33, 37, 41, 0.75);
+  --color-whitesmoke: #f8f9fa;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-6xl: 25px;
+}
+
+/* Media Queries */
+/* Untuk tablet */
+@media (max-width: 768px) {
+  .contentContainer {
+    max-width: 100%;
+    padding-left: 1000px; /* Tambahkan padding untuk tidak terlalu menempel ke tepi */
+  }
+
+  body {
+    padding-right: 0; /* Sesuaikan atau hapus padding yang tidak perlu */
+  }
+}
+
+/* Untuk mobile phones */
+@media (max-width: 480px) {
+  .contentContainer {
+    padding: 0 10px; /* Lebih kecil untuk layar yang lebih kecil */
+  }
+}

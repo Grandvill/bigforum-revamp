@@ -1,0 +1,411 @@
+.todaysArticle,
+.viewAll {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+}
+.todaysArticle {
+  width: 160px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.viewAll {
+  font-size: 12px;
+  color: #065a98;
+}
+.todaysArticleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 79px;
+  font-size: 16px;
+  color: #262626;
+}
+.imagesPlaceholderSquare {
+  width: 48px;
+  position: relative;
+  border-radius: 8px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.bisnisindonesiaid,
+.loremIpsumDolor {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.loremIpsumDolor {
+  width: 222px;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 24px;
+  flex-shrink: 0;
+}
+.bisnisindonesiaid {
+  font-size: 10px;
+  color: #989898;
+}
+.loremIpsumDolorSitAmetCoParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frameParent,
+.imagesPlaceholderSquareParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameParent {
+  position: absolute;
+  top: 432px;
+  left: 1156px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.todaysMoment,
+.viewAll1 {
+  position: absolute;
+  top: 0;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+}
+.todaysMoment {
+  left: 0;
+  font-size: 16px;
+  display: inline-block;
+  color: #262626;
+  width: 160px;
+}
+.viewAll1 {
+  left: 239px;
+  color: #065a98;
+}
+.frameIcon {
+  width: 54px;
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.berulangTahunHari {
+  font-weight: 500;
+}
+.johnDoeBerulangContainer {
+  width: 216px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameGroup {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.loremIpsumDolor3 {
+  width: 216px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameContainer {
+  position: absolute;
+  top: 116px;
+  left: 0;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.loremIpsumDolor4 {
+  width: 217px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameDiv {
+  position: absolute;
+  top: 184px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.todaysMomentParent {
+  position: absolute;
+  top: 706px;
+  left: 1156px;
+  width: 281px;
+  height: 232px;
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  border-radius: 5px;
+  height: 10px;
+}
+.frameChild {
+  width: 30px;
+  background-color: #065a98;
+}
+.frameItem {
+  width: 10px;
+  border: 1px solid #065a98;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  position: absolute;
+  top: 360px;
+  left: 701px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  width: 640px;
+  height: 130px;
+}
+.rectangleIcon {
+  width: 40px;
+  position: relative;
+  border-radius: 20px;
+  height: 40px;
+  object-fit: cover;
+}
+.whatsOnYourInput {
+  width: 100%;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  width: 520px;
+  border-radius: 20px;
+  border: 1px solid #afb1b6;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: 4px 24px;
+}
+.rectangleContainer,
+.whatsOnYourMindWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+/* .whatsOnYourMindWrapper {
+} */
+.rectangleContainer {
+  position: absolute;
+  top: 23px;
+  left: 30px;
+  justify-content: center;
+  gap: 20px;
+}
+.bicardImageIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.photo {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.bicardImageParent,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.bicardImageParent {
+  width: 100px;
+  justify-content: center;
+  gap: 10px;
+}
+.frameParent1 {
+  position: absolute;
+  top: 83px;
+  left: 90px;
+  width: 520px;
+  justify-content: space-between;
+  color: #000;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 484px;
+  left: 436px;
+  width: 640px;
+  height: 130px;
+  font-size: 16px;
+  color: #afb1b6;
+}
+.homeChild {
+  position: absolute;
+  top: 633.5px;
+  left: 435.5px;
+  border-top: 1px solid #ececec;
+  box-sizing: border-box;
+  width: 641px;
+  height: 1px;
+}
+.groupParent {
+  position: absolute;
+  top: 654px;
+  left: 436px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #8dcfff;
+  width: 640px;
+  height: 40px;
+}
+.shapeWithText {
+  position: relative;
+  border-radius: 3px;
+  background-color: #d1e200;
+  width: 60px;
+  height: 24px;
+}
+.pending {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 18px;
+}
+.shapeWithTextParent {
+  position: relative;
+  width: 60px;
+  height: 24px;
+}
+.carboncloseIcon,
+.ggloadbarDocIcon {
+  position: absolute;
+  top: 5px;
+  left: 16px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.carboncloseIcon {
+  top: 12px;
+  left: 612px;
+  width: 16px;
+  height: 16px;
+}
+.requestCuti {
+  font-weight: 600;
+}
+.requestCutiMasihContainer {
+  position: absolute;
+  top: 11px;
+  left: 56px;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  color: #262626;
+  text-align: left;
+}
+.groupDiv {
+  position: absolute;
+  top: 428px;
+  left: 436px;
+  width: 640px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+  color: #1e1e1e;
+}
+.loremIpsumDolor5 {
+  width: 222px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.imagesPlaceholderSquareParent1,
+.imagesPlaceholderSquareParent2 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.imagesPlaceholderSquareParent2 {
+  top: 116px;
+}
+.upcomingEventParent {
+  position: absolute;
+  top: 150px;
+  left: 1156px;
+  width: 280px;
+  height: 232px;
+}
+.home {
+  width: 1512px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11%;
+  height: 1461px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+  font-family: Inter;
+}

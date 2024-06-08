@@ -1,0 +1,270 @@
+.BigForum {
+  position: absolute;
+  top: 71.3px;
+  left: calc(50% - 179px);
+  line-height: 54.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 358.3px;
+  height: 54.4px;
+}
+.asetIconLoginpng,
+.asetLoginKiripngIcon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.asetIconLoginpng {
+  width: calc(100% - 131.3px);
+  top: calc(50% - 106.3px);
+  right: 71.3px;
+  left: 60px;
+  height: 339px;
+}
+.asetLoginKiripngIcon {
+  width: 44.19%;
+  right: 53.06%;
+  bottom: -84.3px;
+  left: 1.75%;
+  height: 311.2px;
+}
+.divcol {
+  position: absolute;
+  top: calc(50% - 280.7px);
+  left: calc(50% - 684px);
+  width: 684px;
+  height: 501.4px;
+}
+.bigGroupWhitepngIcon {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 84.6px);
+  max-height: 100%;
+  width: 169.2px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.divdFlex2 {
+  position: absolute;
+  width: calc(100% - 96px);
+  top: calc(50% - 169.7px);
+  right: 48px;
+  left: 48px;
+  height: 46.6px;
+}
+.loginToBig,
+.ptextCenter {
+  position: relative;
+  height: 47.6px;
+  width: 100%;
+}
+.loginToBig {
+  top: 5.3px;
+  left: calc(12% - 24px);
+  line-height: 47.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500.4px;
+}
+.ptextCenter {
+  width: calc(100% - 96px);
+  top: calc(50% - 99.1px);
+  right: 48px;
+  left: 48px;
+}
+.inputValidUsername {
+  position: absolute;
+  top: -0.6px;
+  left: calc(50% - 137.8px);
+  line-height: 26.18px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275.9px;
+  height: 26.2px;
+}
+.ptextCenter1 {
+  position: absolute;
+  width: calc(100% - 96px);
+  top: calc(50% - 48.1px);
+  right: 48px;
+  left: 48px;
+  height: 26.8px;
+  font-size: 15.4px;
+}
+.username {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 72px;
+  height: 20px;
+}
+.divplaceholder {
+  position: absolute;
+  width: calc(100% - 40px);
+  top: 12px;
+  right: 20px;
+  left: 20px;
+  height: 21px;
+  overflow: hidden;
+}
+.input {
+  width: 100%;
+  top: 0;
+  right: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  height: 45px;
+}
+.input,
+.input1,
+.password {
+  position: absolute;
+  left: 0;
+}
+.password {
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 69px;
+  height: 20px;
+}
+.input1 {
+  width: 100%;
+  top: 61px;
+  right: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  height: 45px;
+}
+.login {
+  top: calc(50% - 11px);
+  left: calc(50% - 18.5px);
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 37.2px;
+  height: 21px;
+}
+.button,
+.form,
+.login {
+  position: absolute;
+}
+.button {
+  height: calc(100% - 122px);
+  width: 585px;
+  top: 122px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: #184a96;
+  text-align: center;
+  color: var(--color-white);
+}
+.form {
+  width: calc(100% - 96px);
+  top: calc(50% + 2.7px);
+  right: 48px;
+  left: 48px;
+  height: 167px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.divdFlex1 {
+  position: absolute;
+  width: calc(100% - 24px);
+  top: 0;
+
+  right: 12px;
+  left: 12px;
+  border-radius: var(--br-21xl);
+  background-color: #0774e0;
+  height: 610px;
+}
+.asetLoginKananpngIcon {
+  position: absolute;
+  width: 45.19%;
+  top: 0;
+  right: 1.75%;
+  left: 53.06%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 337.2px;
+  object-fit: cover;
+}
+.divcol1 {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 660px);
+  top: 0;
+  right: -12px;
+  bottom: 0;
+  left: 672px;
+  font-size: 28px;
+  color: var(--color-whitesmoke);
+}
+
+/* Mengatur Form Login */
+.divpositionRelative {
+  position: absolute;
+  height: calc(100% - 270px);
+  top: 90px;
+  bottom: 135px;
+  left: calc(50% - 672px);
+  border-radius: var(--br-21xl) 0 var(--br-21xl) var(--br-21xl);
+  background-color: #e9f3fc;
+  width: 1344px;
+}
+.divdFlex {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(/images/divdflex@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bigforumLogin {
+  width: 100%;
+  position: fixed;
+  background-color: #f5f9ff;
+  height: 880px;
+  text-align: center;
+  font-size: 32px;
+  color: #212529;
+  font-family: var(--font-poppins);
+  overflow: hidden;
+}
+
+.button {
+  /* Your existing styles for .button */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #02376b; /* Change this to the desired hover color */
+}
+
+/* Active effect */
+.button:active {
+  background-color: #035bb3; /* Change this to the desired active color */
+}

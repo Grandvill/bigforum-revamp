@@ -1,0 +1,39 @@
+/* userMenu.module.css */
+.dropdownMenu {
+  /* Sesuaikan sesuai kebutuhan */
+}
+
+.dropdownSection {
+  display: flex;
+  flex-direction: column; /* Mengubah menjadi flex-direction: column */
+  background-color: white;
+  border-radius: 5%;
+  text-align: start;
+  width: 140px;
+  list-style-type: none;
+}
+
+.dropdownItem {
+  display: flex;
+  margin-top: 5px 5px;
+  text-align: start;
+  justify-content: flex-start; /* Menggunakan flex-start untuk membuat item sejajar kiri */
+  align-items: center; /* Menengahkan secara vertikal */
+  padding: 8px 0px; /* Padding yang fleksibel */
+  cursor: pointer;
+  width: 100%; /* Menggunakan lebar 100% agar item mengambil lebar penuh */
+  outline: none;
+}
+
+.dropdownItem:hover .dropdownIcon {
+  transform: scale(1.2);
+}
+
+.dropdownIcon {
+  width: 25px;
+  margin-right: 25px;
+  margin-left: 10px;
+  padding-right: 20px !important;
+  transition: transform 0.3s ease;
+  color: aqua;
+}

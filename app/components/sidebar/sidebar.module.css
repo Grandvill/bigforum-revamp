@@ -1,0 +1,266 @@
+.frameParent2 {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 0;
+  box-sizing: border-box;
+  gap: 16px;
+  font-size: 16px;
+  color: #262626;
+}
+
+.frameParent3 {
+  width: 280px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.rectangleWrapper,
+.username {
+  position: relative;
+  flex-shrink: 0;
+}
+.rectangleWrapper {
+  width: 40px;
+  height: 32px;
+  overflow: hidden;
+  background: none;
+  border: none;
+}
+
+.username {
+  width: 230px;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.frameChild3 {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.lineDiv {
+  width: 281px;
+  position: relative;
+  border-top: 1px solid #065a98;
+  box-sizing: border-box;
+  height: 1px;
+  opacity: 0.3;
+}
+
+.privacyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #989898;
+}
+
+.copyright2022Container {
+  width: 280px;
+  position: relative;
+  font-size: 13px;
+  line-height: 20px;
+  color: #747474;
+  display: inline-block;
+}
+
+.allRightReserved {
+  margin: 0;
+}
+
+.frameParent,
+.imagesPlaceholderSquareParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameParent {
+  position: absolute;
+  top: 432px;
+  left: 1156px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+
+/* Modul Umum */
+.umumParent {
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+
+.umum1 {
+  width: 212px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  display: inline-block;
+}
+
+.iconParkeveryUserParent,
+.tutorialPesemesananRuangWrapper {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iconParkeveryUser {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pemesananKendaraan {
+  width: 170px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.frameParent4 {
+  width: 212px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+}
+.iconParkeveryUserParent,
+.tutorialPesemesananRuangWrapper {
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.iconParkeveryUserParent {
+  width: 212px;
+  background-color: var(--color-thistle);
+  gap: var(--gap-3xs);
+  color: var(--culture-networking);
+}
+.tutorialPesemesananRuangWrapper {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  width: 180px;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.privacy {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+} 
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 192px;
+  background: linear-gradient(-87.33deg, #fff, rgba(255, 255, 255, 0));
+  width: 20px;
+  height: 32px;
+}
+.frameParent5 {
+  width: 212px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+  color: var(--culture-networking);
+}
+.reservasiRuangRapatWrapper {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-thistle);
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.reservasiRuangRapat1 {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.frameChild9 {
+  position: absolute;
+  top: 0;
+  left: 192px;
+  background: linear-gradient(-87.33deg, #fff, rgba(255, 255, 255, 0));
+  width: 20px;
+  height: 32px;
+  display: none;
+}
+.iconParkcarParent {
+  width: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-83xl) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.iconParkeveryUser {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.pemesananKendaraan {
+  width: 170px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}

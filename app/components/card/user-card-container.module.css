@@ -1,0 +1,165 @@
+.profileImage,
+.groupItem {
+  position: absolute;
+  background-color: #fff;
+  border: 0.5px solid #065a98;
+  box-sizing: border-box;
+}
+.profileImage {
+  top: -0.5px;
+  left: -0.5px;
+  border-radius: 8px;
+  width: 641px;
+  height: 222px;
+}
+.groupItem {
+  top: 0;
+  left: 0;
+  border-radius: 8px 8px 0 0;
+  width: 640px;
+  height: 60px;
+}
+.groupInner {
+  position: absolute;
+  top: 14px;
+  left: 22px;
+  border-radius: 20px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+.michelleDewi,
+.position {
+  position: relative;
+  line-height: 150%;
+}
+.michelleDewi {
+  width: 360px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+}
+.position {
+  letter-spacing: -0.01em;
+}
+.positionParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  font-size: 12px;
+  color: #737373;
+}
+.michelleDewiParent {
+  position: absolute;
+  top: 10px;
+  left: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+}
+.bithreeDotsIcon {
+  position: absolute;
+  top: 19px;
+  left: 596px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.dropdownMenu {
+  position: absolute;
+  border-radius: 10px;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdownOption {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdownOption:hover {
+  background-color: #f5f5f5;
+}
+.status {
+  position: absolute;
+  top: 70px;
+  left: 22px;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+  width: 599px;
+}
+.likedIcon {
+  fill: #ff0000; /* Replace #ff0000 with the desired red color code */
+}
+.lineDiv {
+  position: absolute;
+  top: 175px;
+  left: 20.5px;
+  border-top: 1px solid #989898;
+  box-sizing: border-box;
+  width: 598px;
+  height: 1px;
+  opacity: 0.5;
+}
+.antDesignlikeOutlinedIcon {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.like {
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+  font-weight: 500;
+}
+.antDesignlikeOutlinedParent,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.antDesignlikeOutlinedParent {
+  width: 100px;
+  gap: 10px;
+}
+.frameParent {
+  position: absolute;
+  top: 187px;
+  left: 120px;
+  gap: 50px;
+  color: #747474;
+}
+.userProfileCard {
+  width: 640px;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  height: 221px;
+  text-align: left;
+  font-size: 14px;
+  color: #1e1e1e;
+  font-family: Inter;
+}
+
+.statusContainer {
+  max-height: 80px; /* Contoh tinggi maksimum kartu */
+  overflow-y: auto; /* Menambahkan scroll vertikal jika konten melebihi tinggi maksimum */
+}
+
+.status {
+  /* Gaya status lainnya yang mungkin Anda miliki */
+}

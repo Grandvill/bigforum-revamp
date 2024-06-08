@@ -1,0 +1,69 @@
+.todayMomentTitle,
+.viewAllButton {
+  position: absolute;
+  top: 0;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+}
+.todayMomentTitle {
+  left: 0;
+  font-size: 16px;
+  display: inline-block;
+  color: #262626;
+  width: 160px;
+}
+.viewAllButton {
+  left: 239px;
+  color: #065a98;
+}
+.userAccountMessage {
+  font-weight: 500;
+}
+.userAccount {
+  width: 216px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 24px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.momentGroup {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.frameWrapper {
+  position: absolute;
+  top: 184px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.todayMomentWrapper {
+  position: absolute;
+  top: 706px;
+  left: 1156px;
+  width: 281px;
+  height: 232px;
+}
+
+.imageWrapper {
+  position: absolute;
+  top: 116px;
+  left: 0;
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}

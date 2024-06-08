@@ -1,0 +1,277 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./app/components/loginForm/loginForm.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.loginForm_BigForum__veOrV {
+  position: absolute;
+  top: 71.3px;
+  left: calc(50% - 179px);
+  line-height: 54.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 358.3px;
+  height: 54.4px;
+}
+.loginForm_asetIconLoginpng___b04i,
+.loginForm_asetLoginKiripngIcon__wmOn_ {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.loginForm_asetIconLoginpng___b04i {
+  width: calc(100% - 131.3px);
+  top: calc(50% - 106.3px);
+  right: 71.3px;
+  left: 60px;
+  height: 339px;
+}
+.loginForm_asetLoginKiripngIcon__wmOn_ {
+  width: 44.19%;
+  right: 53.06%;
+  bottom: -84.3px;
+  left: 1.75%;
+  height: 311.2px;
+}
+.loginForm_divcol__4CovQ {
+  position: absolute;
+  top: calc(50% - 280.7px);
+  left: calc(50% - 684px);
+  width: 684px;
+  height: 501.4px;
+}
+.loginForm_bigGroupWhitepngIcon__IpT8a {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 84.6px);
+  max-height: 100%;
+  width: 169.2px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.loginForm_divdFlex2__6m9Gj {
+  position: absolute;
+  width: calc(100% - 96px);
+  top: calc(50% - 169.7px);
+  right: 48px;
+  left: 48px;
+  height: 46.6px;
+}
+.loginForm_loginToBig__0h5e3,
+.loginForm_ptextCenter__CtVX9 {
+  position: relative;
+  height: 47.6px;
+  width: 100%;
+}
+.loginForm_loginToBig__0h5e3 {
+  top: 5.3px;
+  left: calc(12% - 24px);
+  line-height: 47.6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500.4px;
+}
+.loginForm_ptextCenter__CtVX9 {
+  width: calc(100% - 96px);
+  top: calc(50% - 99.1px);
+  right: 48px;
+  left: 48px;
+}
+.loginForm_inputValidUsername__Opvz1 {
+  position: absolute;
+  top: -0.6px;
+  left: calc(50% - 137.8px);
+  line-height: 26.18px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275.9px;
+  height: 26.2px;
+}
+.loginForm_ptextCenter1__9Ozcm {
+  position: absolute;
+  width: calc(100% - 96px);
+  top: calc(50% - 48.1px);
+  right: 48px;
+  left: 48px;
+  height: 26.8px;
+  font-size: 15.4px;
+}
+.loginForm_username__0IiVH {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 72px;
+  height: 20px;
+}
+.loginForm_divplaceholder__1OJj_ {
+  position: absolute;
+  width: calc(100% - 40px);
+  top: 12px;
+  right: 20px;
+  left: 20px;
+  height: 21px;
+  overflow: hidden;
+}
+.loginForm_input__W9iFr {
+  width: 100%;
+  top: 0;
+  right: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  height: 45px;
+}
+.loginForm_input__W9iFr,
+.loginForm_input1__I1MPk,
+.loginForm_password___fq6i {
+  position: absolute;
+  left: 0;
+}
+.loginForm_password___fq6i {
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 69px;
+  height: 20px;
+}
+.loginForm_input1__I1MPk {
+  width: 100%;
+  top: 61px;
+  right: 0;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  height: 45px;
+}
+.loginForm_login__q872b {
+  top: calc(50% - 11px);
+  left: calc(50% - 18.5px);
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 37.2px;
+  height: 21px;
+}
+.loginForm_button__9fbBr,
+.loginForm_form__JYrg3,
+.loginForm_login__q872b {
+  position: absolute;
+}
+.loginForm_button__9fbBr {
+  height: calc(100% - 122px);
+  width: 585px;
+  top: 122px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xl);
+  background-color: #184a96;
+  text-align: center;
+  color: var(--color-white);
+}
+.loginForm_form__JYrg3 {
+  width: calc(100% - 96px);
+  top: calc(50% + 2.7px);
+  right: 48px;
+  left: 48px;
+  height: 167px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+}
+.loginForm_divdFlex1__UHFiw {
+  position: absolute;
+  width: calc(100% - 24px);
+  top: 0;
+
+  right: 12px;
+  left: 12px;
+  border-radius: var(--br-21xl);
+  background-color: #0774e0;
+  height: 610px;
+}
+.loginForm_asetLoginKananpngIcon__HQio4 {
+  position: absolute;
+  width: 45.19%;
+  top: 0;
+  right: 1.75%;
+  left: 53.06%;
+  max-width: 100%;
+  overflow: hidden;
+  height: 337.2px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.loginForm_divcol1__k0crU {
+  position: absolute;
+  height: 100%;
+  width: calc(100% - 660px);
+  top: 0;
+  right: -12px;
+  bottom: 0;
+  left: 672px;
+  font-size: 28px;
+  color: var(--color-whitesmoke);
+}
+
+/* Mengatur Form Login */
+.loginForm_divpositionRelative__D0hxd {
+  position: absolute;
+  height: calc(100% - 270px);
+  top: 90px;
+  bottom: 135px;
+  left: calc(50% - 672px);
+  border-radius: var(--br-21xl) 0 var(--br-21xl) var(--br-21xl);
+  background-color: #e9f3fc;
+  width: 1344px;
+}
+.loginForm_divdFlex__pswGr {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(/images/divdflex@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.loginForm_bigforumLogin__PtK8A {
+  width: 100%;
+  position: fixed;
+  background-color: #f5f9ff;
+  height: 880px;
+  text-align: center;
+  font-size: 32px;
+  color: #212529;
+  font-family: var(--font-poppins);
+  overflow: hidden;
+}
+
+.loginForm_button__9fbBr {
+  /* Your existing styles for .button */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect */
+.loginForm_button__9fbBr:hover {
+  background-color: #02376b; /* Change this to the desired hover color */
+}
+
+/* Active effect */
+.loginForm_button__9fbBr:active {
+  background-color: #035bb3; /* Change this to the desired active color */
+}
+

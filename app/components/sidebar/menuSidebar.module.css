@@ -1,0 +1,283 @@
+.frameChild {
+  width: 40px;
+  position: relative;
+  height: 32px;
+  right: 60px;
+  bottom: 160px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frameItem {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  border-radius: 12px;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.frameInner {
+  width: 31px;
+  position: relative;
+  right: 55px;
+  bottom: 170px;
+  border-top: 1px solid #065a98;
+  box-sizing: border-box;
+  height: 1px;
+  opacity: 0.3;
+}
+
+.frameGroup {
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  background-color: var(--light);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 16px;
+}
+
+.umum {
+  width: 212px;
+  position: relative;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  left: 7px;
+  display: inline-block;
+}
+
+.iconParkeveryUser {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.pemesananRuang {
+  width: 170px;
+  position: relative;
+  letter-spacing: -0.02em;
+  /* line-height: 32px; */
+  left: 10px;
+  bottom: 6px;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.pemesananKendaraan {
+  width: 170px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  left: 10px;
+  bottom: 16px;
+  margin-top: 32px;
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+
+.iconParkeveryUserParent {
+  width: 212px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-thistle);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  color: var(--culture-networking);
+}
+
+.tutorialPesemesananRuang {
+  width: 170px;
+  text-align: center;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  left: 7px;
+  bottom: 5px;
+}
+
+.tutorialPesemesananRuangWrapper {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  border-radius: var(--br-9xs);
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+
+.rectangleDiv {
+  position: absolute;
+  top: 0;
+  left: 192px;
+  background: linear-gradient(-87.33deg, #fff, rgba(255, 255, 255, 0));
+  width: 20px;
+  height: 32px;
+}
+
+.frameContainer {
+  width: 212px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+}
+
+.reservasiRuangRapat {
+  width: 170px;
+  text-align: center;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-weight: 600;
+  left: 7px;
+  background-color: #e8d1ff;
+  color: #8711fd;
+}
+
+.reservasiRuangRapatWrapper {
+  position: absolute;
+  top: 0;
+  left: 32px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-thistle);
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+
+.frameChild7 {
+  position: absolute;
+  top: 0;
+  left: 192px;
+  background: linear-gradient(-87.33deg, #fff, rgba(255, 255, 255, 0));
+  width: 20px;
+  height: 32px;
+  display: none;
+}
+
+.frameDiv {
+  width: 212px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-sm);
+  color: var(--culture-networking);
+}
+
+.iconParkcarParent {
+  width: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 102px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+
+.umumParent {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+
+.privacyParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #989898;
+}
+
+.frameParent2 {
+  position: absolute;
+  top: 760px;
+  left: 95px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.copyright2022Container {
+  width: 280px;
+  position: relative;
+  font-size: 13px;
+  line-height: 20px;
+  color: #747474;
+  display: inline-block;
+}
+
+.allRightReserved {
+  margin: 0;
+}
+
+.frameParent {
+  width: 290px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-color: var(--light);
+  height: 570px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  position: absolute;
+  top: 170px;
+  left: 80px;
+}
+
+.menuItem {
+  width: 212px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  /* padding: 10px; */
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.menuItem:hover {
+  background-color: #f0f0f0; /* Efek hover */
+}
+
+.activeMenu {
+  background-color: #e8d1ff; /* Warna latar belakang untuk menu aktif */
+  font-weight: bold;
+}

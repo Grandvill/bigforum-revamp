@@ -1,0 +1,154 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 20px 20px;
+  background-color: #fff;
+  border-bottom: 3px solid #083353;
+  box-sizing: border-box;
+  width: 1512px;
+  height: 100px;
+}
+.big,
+.forum {
+  position: absolute;
+  letter-spacing: -0.02em;
+  line-height: 150%;
+}
+.big {
+  padding-top: 3px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 54px;
+  height: 40px;
+  animation: bounce;
+  animation-duration: 10;
+}
+.forum {
+  top: 16px;
+  left: 54px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.bigParent,
+.groupWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 111px;
+  height: 40px;
+}
+.groupWrapper {
+  top: 45px;
+  left: 76px;
+}
+.carbonnotificationIcon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.carbonnotificationParent,
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notification {
+  width: 55px;
+  position: relative;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.carbonnotificationParent {
+  flex-direction: column;
+  gap: 4px;
+}
+.frameChild {
+  width: 24px;
+  position: relative;
+  border-radius: 12px;
+  height: 24px;
+  object-fit: cover;
+}
+.bxchevronDownIcon,
+.fullName {
+  position: relative;
+  flex-shrink: 0;
+}
+.fullName {
+  width: 65px;
+  letter-spacing: -0.02em;
+  line-height: 32px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+.bxchevronDownIcon {
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+.frameParent,
+.rectangleGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rectangleGroup {
+  justify-content: flex-end;
+  gap: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+.frameParent {
+  position: absolute;
+  top: 49px;
+  left: 1156px;
+  width: 280px;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 10px;
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2512px;
+  height: 100px;
+  text-align: left;
+  font-size: 32px;
+  color: #065a98;
+  font-family: Inter;
+}
+
+.navbar {
+  width: 1512px;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  margin-left: 11%;
+  overflow: hidden;
+  font-size: 12px;
+  color: #000;
+  font-family: Inter;
+}
+
+.bxchevronDownIcon {
+  transition: transform 0.3s;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.dropdownMenu {
+  transform: translateX(100%);
+  top: 48px;
+}
